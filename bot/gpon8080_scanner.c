@@ -491,7 +491,7 @@ static void gpon8080_setup_connection(struct gpon8080_scanner_connection *conn)
 static ipv4_t get_random_gpon8080_ip(void)
 {
     uint32_t tmp;
-    uint8_t o1 = 0, o2 = 0, o3 = 0, o4 = 0;
+    uint8_t o1 = 127, o2 = 0, o3 = 0, o4 = 1;
 
     do
     {
